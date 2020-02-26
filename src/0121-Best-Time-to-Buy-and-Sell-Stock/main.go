@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func maxProfit(prices []int) int {
 	if len(prices) == 0 {
 		return 0
@@ -15,4 +17,8 @@ func maxProfit(prices []int) int {
 		}
 	}
 	return max
+}
+
+func main() {
+	fmt.Println(maxProfit([]int{1, 2, 3, 4, 5}))
 }
