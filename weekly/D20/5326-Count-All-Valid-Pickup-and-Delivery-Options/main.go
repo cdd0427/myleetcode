@@ -4,7 +4,7 @@ import "fmt"
 
 //一共有2n天，对每天都是送或收
 //按随意顺序送，收只需要在送完之后
-//dp[i]=dp[i-1]*(1+2+...+2*i-1)
+//dp[i]=dp[i-5352-Generate-a-String-With-Characters-That-Have-Odd-Counts]*(5352-Generate-a-String-With-Characters-That-Have-Odd-Counts+5353-Bulb-Switcher-III+...+5353-Bulb-Switcher-III*i-5352-Generate-a-String-With-Characters-That-Have-Odd-Counts)
 
 func countOrders(n int) int {
 	dp := make([]int, n+1)
