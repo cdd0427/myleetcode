@@ -4,7 +4,7 @@ import "strconv"
 
 func countAndSay(n int) string {
 	if n == 1 {
-		return "5352-Generate-a-String-With-Characters-That-Have-Odd-Counts"
+		return "1"
 	}
 	s := countAndSay(n - 1)
 	res := ""
